@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="site.css">
+    <script src="site.js"></script>
+</head>
+<body>
+    <center><h1 class="title">Calculation of daily calories</h1></center>
+    <div class="main" ><main>
+        <form class="parent" action="liste.php"  method="post" >
+            
+             <fieldset class="fieldset" ><h2>your name ?</h2><input name="name" class="" type="text"></fieldset>   
+             <DIV><fieldset>
+                
+                <h3>1) what is your gender?</h3>
+                <img src="https://img.freepik.com/premium-vector/cute-cartoon-boy-face-vector-design-with-white-background_911078-1747.jpg" alt="">
+                <img src="https://img.freepik.com/free-vector/smiling-indian-woman-youthful-joyful_1308-150616.jpg" alt="">
+                <br>
+                <input type="radio" checked name="gender" id="boy">man &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+                <input type="radio" name="gender" id="girl">women
+            </fieldset></td><td></DIV>
+                <DIV><fieldset>
+                <h3>2) How old are you ?</h3>
+                <input type="number" size="3" id="old" name="old" required placeholder="21" min="0" max="99"> Years
+            </fieldset></td></tr><tr><td></DIV>
+                <DIV><fieldset><
+                <H3>3) How tall are you ?</H3>
+                <input type="number" size="3" id="tall" name="tall" required placeholder="170" min="0" max="220"> Cm
+            </fieldset></td><td></DIV>
+            <DIV><fieldset>
+                <H3>4) How much do you weigh?</H3>
+                <input type="number" size="3" id="weight" name="weight" required placeholder="69" min="0" max="199"> kg
+
+            </fieldset></td></tr><tr><td  ></DIV>
+                <DIV><fieldset>
+                <h3>5) your daily activity ?</h3>
+                <select id="active" name="activite" id="">
+                    <option value="1.2">Not very active</option>
+                    <option value="1.375">modeately active</option>
+                    <option value="1.55">active</option>
+                    <option value="1.725">very active</option>
+                </select></DIV>
+            </fieldset>
+            <DIV><fieldset>
+                <button type="button" onclick="calculee()">Calculate your calorie intake</button>
+                <div> 
+                   
+                        <td class="res"><div id="resultContainer1"></div></td> 
+                        <td class="res"><div id="resultContainer2"></div></td>
+                         <td class="res"><div id="resultContainer3"></div></td>
+                   
+                </table></div>
+            </fieldset></DIV></td></tr>
+        </table>
+        
+        </form>
+        
+    </main></div>
+</body>
+</html>

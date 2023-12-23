@@ -1,0 +1,85 @@
+.main img{
+    height: 80px;
+    width: 80px;
+}
+
+
+.parent{
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #4b5859;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+
+
+fieldset {
+    border: 1px solid #06e2ff;
+    padding: 30px;
+    margin: 6px;
+    text-align: center;
+    height: 155px;
+    width: 280px;
+}
+
+.res {
+    border: 1px solid #06e2ff;
+    margin: 3px;
+}
+
+.title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: cadetblue;
+}
+
+body {
+    background-color: cornsilk;
+}
+
+button {
+    border: 3px solid rgb(0, 0, 0);
+    color: white;
+    background-color: #df2222a1;
+    animation: rainbow 13s infinite;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+@keyframes rainbow {
+    0% {
+        background-color: red;
+        color: white;
+    }
+    14.2857% {
+        background-color: orange;
+        color: black;
+    }
+    28.5714% {
+        background-color: yellow;
+        color: black; 
+    }
+    42.8571% {
+        background-color: green;
+        color: white; 
+    }
+    57.1429% {
+        background-color: blue;
+        color: white; 
+    }
+    71.4286% {
+        background-color: indigo;
+        color: white; 
+    }
+    85.7143% {
+        background-color: violet;
+        color: black; 
+    }
+    100% {
+        background-color: red;
+        color: white; 
+    }
+}
+
